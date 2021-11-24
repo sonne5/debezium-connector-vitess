@@ -1,7 +1,7 @@
 # Use a temporary layer for the build stage.
-FROM vitess/base:v11.0.0 AS base
+FROM vitess/base:v12.0.0 AS base
 
-FROM vitess/lite:v11.0.0
+FROM vitess/lite:v10.0.2
 
 USER root
 
